@@ -52,22 +52,20 @@
   .hero .tag{font-family:var(--display);font-weight:600;font-size:clamp(22px,2.8vw,34px);color:var(--sky)}
   .hero .expand{margin-top:30px;color:#c3cfe8;max-width:52ch;font-size:18px;line-height:1.7}
   .pill{display:inline-flex;align-items:center;gap:8px;border:1px solid rgba(174,191,218,.4);border-radius:999px;padding:8px 16px;font-size:11.5px;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:#d4def3;position:relative;z-index:2}
-  /* animated "blue → clear" field */
+  /* spotlight background — three drifting beams */
   .hero-fx{position:absolute;inset:0;z-index:1;overflow:hidden;pointer-events:none}
-  .blob{position:absolute;border-radius:50%;filter:blur(70px);mix-blend-mode:screen;will-change:transform,opacity}
-  .b1{width:62vw;height:62vw;left:-12vw;top:-22vw;background:radial-gradient(circle,#0058EA 0%,transparent 62%);animation:drift1 24s ease-in-out infinite}
-  .b2{width:52vw;height:52vw;right:-16vw;top:-12vw;background:radial-gradient(circle,#41A9F6 0%,transparent 62%);animation:drift2 29s ease-in-out infinite}
-  .b3{width:48vw;height:48vw;left:24vw;bottom:-28vw;background:radial-gradient(circle,#7EDFFE 0%,transparent 62%);animation:drift3 34s ease-in-out infinite}
-  .b4{width:40vw;height:40vw;right:8vw;bottom:-20vw;background:radial-gradient(circle,#5A5B9F 0%,transparent 62%);animation:drift4 27s ease-in-out infinite}
+  .spotlight{position:absolute;width:78vw;height:42vw;border-radius:50%;filter:blur(52px);mix-blend-mode:screen;will-change:transform,opacity;opacity:.85}
+  .spotlight-left{top:18%;left:6%;background:radial-gradient(ellipse at center,rgba(0,88,234,.72) 0%,rgba(0,88,234,0) 62%);animation:spot-left 12s ease-in-out infinite}
+  .spotlight-mid{top:36%;left:34%;width:70vw;height:38vw;background:radial-gradient(ellipse at center,rgba(65,169,246,.58) 0%,rgba(65,169,246,0) 62%);animation:spot-mid 15s ease-in-out -3s infinite}
+  .spotlight-right{top:22%;left:54%;width:74vw;height:42vw;background:radial-gradient(ellipse at center,rgba(126,223,254,.5) 0%,rgba(126,223,254,0) 62%);animation:spot-right 18s ease-in-out -5s infinite}
   .veil{position:absolute;inset:0;will-change:opacity}
-  .veil.v1{background:linear-gradient(180deg,rgba(0,88,234,.62) 0%,rgba(15,38,71,.18) 100%);animation:clarify 13s ease-in-out infinite}
-  .veil.v2{background:radial-gradient(120% 100% at 70% 0%,rgba(65,169,246,.5) 0%,rgba(90,91,159,.25) 45%,transparent 75%);animation:clarify 19s ease-in-out infinite;animation-delay:-6s}
-  @keyframes drift1{0%,100%{transform:translate(0,0) scale(1);opacity:.55}25%{transform:translate(16vw,8vh) scale(1.18);opacity:.75}50%{transform:translate(34vw,-4vh) scale(.92);opacity:.4}75%{transform:translate(8vw,12vh) scale(1.08);opacity:.6}}
-  @keyframes drift2{0%,100%{transform:translate(0,0) scale(1);opacity:.5}30%{transform:translate(-18vw,12vh) scale(1.15);opacity:.7}55%{transform:translate(-6vw,-6vh) scale(.95);opacity:.38}80%{transform:translate(-22vw,4vh) scale(1.1);opacity:.6}}
-  @keyframes drift3{0%,100%{transform:translate(0,0) scale(1);opacity:.45}35%{transform:translate(12vw,-14vh) scale(1.2);opacity:.65}60%{transform:translate(-14vw,-8vh) scale(.9);opacity:.35}85%{transform:translate(6vw,-18vh) scale(1.12);opacity:.55}}
-  @keyframes drift4{0%,100%{transform:translate(0,0) scale(1);opacity:.4}40%{transform:translate(-12vw,-10vh) scale(1.22);opacity:.6}70%{transform:translate(10vw,-4vh) scale(.94);opacity:.3}}
+  .veil.v1{background:linear-gradient(180deg,rgba(0,88,234,.35) 0%,rgba(15,38,71,.15) 100%);animation:clarify 13s ease-in-out infinite}
+  .veil.v2{background:radial-gradient(120% 100% at 70% 0%,rgba(65,169,246,.32) 0%,rgba(90,91,159,.18) 45%,transparent 75%);animation:clarify 19s ease-in-out infinite;animation-delay:-6s}
+  @keyframes spot-left{0%{transform:translate(-50%,-50%) rotate(0deg)}33%{transform:translate(-30%,-70%) rotate(15deg)}66%{transform:translate(-70%,-30%) rotate(-15deg)}100%{transform:translate(-50%,-50%) rotate(0deg)}}
+  @keyframes spot-mid{0%{transform:translate(0%,0%) rotate(-20deg)}33%{transform:translate(20%,30%) rotate(0deg)}66%{transform:translate(-20%,10%) rotate(20deg)}100%{transform:translate(0%,0%) rotate(-20deg)}}
+  @keyframes spot-right{0%{transform:translate(0%,0%) rotate(10deg)}33%{transform:translate(-30%,-20%) rotate(-10deg)}66%{transform:translate(10%,20%) rotate(25deg)}100%{transform:translate(0%,0%) rotate(10deg)}}
   @keyframes clarify{0%{opacity:.95}42%{opacity:0}58%{opacity:0}100%{opacity:.95}}
-  @media(prefers-reduced-motion:reduce){.blob,.veil{animation:none}.veil.v1{opacity:.35}.veil.v2{opacity:.25}}
+  @media(prefers-reduced-motion:reduce){.spotlight,.veil{animation:none}.spotlight{opacity:.45}.veil.v1{opacity:.25}.veil.v2{opacity:.18}}
 
   /* ---- section heads ---- */
   .shead{font-size:clamp(32px,4.6vw,52px);font-weight:700;letter-spacing:-.015em;margin-bottom:20px}
@@ -169,10 +167,9 @@
 
 <header class="hero">
   <div class="hero-fx" aria-hidden="true">
-    <span class="blob b1"></span>
-    <span class="blob b2"></span>
-    <span class="blob b3"></span>
-    <span class="blob b4"></span>
+    <div class="spotlight spotlight-left"></div>
+    <div class="spotlight spotlight-mid"></div>
+    <div class="spotlight spotlight-right"></div>
     <div class="veil v1"></div>
     <div class="veil v2"></div>
   </div>
