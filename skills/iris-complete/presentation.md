@@ -216,7 +216,7 @@ viewport with `object-fit: contain` behavior.
 - [ ] Content slides use mist or white background
 - [ ] Data slides use navy background
 - [ ] Only IRIS palette colors used — no off-palette colors
-- [ ] Azure used as accent/fill only — navy text on Azure, never white text
+- [ ] Azure fills use white text/icons
 - [ ] Risk colors appear only on data slides, never decoratively
 
 ### Typography

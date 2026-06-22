@@ -9,7 +9,7 @@ You are working on brand assets for **IRIS** (Intelligence Risk Integrated Solut
 
 ## Quick Reference
 
-- **Primary color:** `#41A9F6` (Azure — CSS `--blue` — primary actions, links, active states. Accent/fill only for text — use navy text on Azure fills, not white)
+- **Primary color:** `#41A9F6` (Azure — CSS `--blue` — primary actions, links, active states. White text/icons on Azure fills)
 - **Secondary color:** `#0058EA` (Gogolook Blue — CSS `--azure` — secondary highlights, data-viz, icons. White text passes AA)
 - **Accent:** `#5A5B9F` (Blue Iris — CSS `--iris` — muted surfaces, supporting accents. Ties to the name. White text passes AA ~6:1)
 - **Light accent:** `#7EDFFE` (Iris Sky — CSS `--sky` — tints, hover fills, chart-light, glows on dark. Fill-only)
@@ -40,7 +40,7 @@ You are working on brand assets for **IRIS** (Intelligence Risk Integrated Solut
 ### Color
 
 - **Azure `#41A9F6`** is the primary. It leads every composition — primary actions, links, active states, key brand accents.
-- **Critical rule:** Azure is accent/fill only for text contrast. Use **navy text** on Azure fills — never white text on Azure.
+- **Critical rule:** White text/icons on Azure fills.
 - **Gogolook Blue `#0058EA`** is the secondary — secondary highlights, data-viz accent, icons. White text on Gogolook Blue passes WCAG AA.
 - **Blue Iris `#5A5B9F`** is the accent — muted surfaces, supporting accents, subtle differentiation. White text passes AA (~6:1). This color ties to the IRIS name.
 - **Iris Sky `#7EDFFE`** is the light accent — tints, hover fills, chart-light, glows on dark backgrounds. Fill-only, never for text.
@@ -48,7 +48,7 @@ You are working on brand assets for **IRIS** (Intelligence Risk Integrated Solut
 - **Iris Mist `#F3F8FE`** is the lightest surface — app background, cards.
 - **Brand gradient** (`#0058EA -> #41A9F6 -> #7EDFFE`) is for hero sections and marketing only. Never in product UI.
 - **Semantic risk colors** (High `#E5484D`, Medium `#F5A623`, Low `#2FB87A`) are for data visualization only. Never use red/amber/green as brand or decorative color.
-- WCAG AA compliance: `#0058EA`, `#5A5B9F`, and `#0F2647` pass on white for text. Azure (`#41A9F6`) does NOT pass for text — use it as fills with navy text.
+- WCAG AA compliance: `#0058EA`, `#5A5B9F`, and `#0F2647` pass on white for text. Azure (`#41A9F6`) uses white text/icons on its fills.
 
 ### Typography
 
@@ -146,7 +146,7 @@ IRIS speaks like a **trusted risk expert**: calm, precise, evidence-led.
 
 ### Product UI (console, dashboards, API responses)
 
-- Azure for primary actions (buttons, links, active states). Navy text on Azure fills.
+- Azure for primary actions (buttons, links, active states). White text/icons on Azure fills.
 - Gogolook Blue for secondary highlights and data-viz accent.
 - Inter for all text. Tabular-nums for every number.
 - Iris Mist `#F3F8FE` for background, white for cards.
@@ -186,7 +186,7 @@ IRIS speaks like a **trusted risk expert**: calm, precise, evidence-led.
 Run before delivering any IRIS asset:
 
 - [ ] Azure `#41A9F6` is present as the primary color for actions/accents.
-- [ ] Navy text on Azure fills — never white text on Azure.
+- [ ] White text/icons on Azure fills.
 - [ ] All hex values match the token table exactly.
 - [ ] Semantic risk colors (red/amber/green) used only for risk data — never decorative.
 - [ ] Headlines use Plus Jakarta Sans 700/800. Body uses Inter.
@@ -196,7 +196,7 @@ Run before delivering any IRIS asset:
 - [ ] Clear space and minimum size rules respected for logo.
 - [ ] Layout follows "space = clarity" — generous whitespace, airy rhythm.
 - [ ] No Gogolook parent brand voice or other sub-brand palette mixed in.
-- [ ] WCAG AA contrast met — Azure is fill-only for text purposes.
+- [ ] WCAG AA contrast met — white text/icons on Azure fills.
 
 ## Review Loop
 

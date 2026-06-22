@@ -81,7 +81,7 @@ Azure drives primary actions. Gogolook Blue carries secondary/outline. Blue Iris
 
 | Variant | Background | Text color | Border | Hover |
 |---------|-----------|------------|--------|-------|
-| **Primary** | `var(--blue)` (#41A9F6) | `var(--navy)` (#0F2647) | none | `#2B8FD4` (darken ~12%) |
+| **Primary** | `var(--blue)` (#41A9F6) | `#FFFFFF` | none | `#2B8FD4` (darken ~12%) |
 | **Secondary / Outline** | `#FFFFFF` | `var(--azure)` (#0058EA) | 1.5px solid `var(--azure)` | `rgba(0,88,234,.06)` bg |
 | **Accent** | `var(--iris)` (#5A5B9F) | `#FFFFFF` | none | `#4A4B87` (darken) |
 | **Ghost** | transparent | `var(--ink-2)` (#5A6577) | none | `var(--mist)` bg, `var(--navy)` text |
@@ -756,7 +756,7 @@ These icons appear across the IRIS console and marketing surfaces:
 ## Accessibility Requirements
 
 - **WCAG AA contrast** on all text elements.
-- Azure (`#41A9F6`) is accent/fill only — never use as text color on white backgrounds (fails AA). Use navy text on Azure fills.
+- Azure (`#41A9F6`) is not used as text color on white backgrounds (fails AA). White text/icons on Azure fills.
 - Gogolook Blue (`#0058EA`), Blue Iris (`#5A5B9F`), and Navy (`#0F2647`) all pass AA on white.
 - Focus ring: `box-shadow: 0 0 0 3px rgba(65, 169, 246, 0.18)` on interactive elements.
 - Risk levels must convey meaning through both color AND text/letter (A-E or High/Med/Low).

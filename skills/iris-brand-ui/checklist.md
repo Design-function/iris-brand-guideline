@@ -10,7 +10,7 @@ and UI component compliance. Mark each item PASS, FAIL, or N/A.
 | # | Check | Result |
 |---|-------|--------|
 | 1.1 | Azure `#41A9F6` is present as the primary color (actions, links, active states). | |
-| 1.2 | Navy text (`#0F2647`) on Azure fills — **never** white text on Azure. | |
+| 1.2 | White text/icons on Azure (`#41A9F6`) fills. | |
 | 1.3 | Gogolook Blue `#0058EA` used as secondary only — not replacing Azure as primary. | |
 | 1.4 | Blue Iris `#5A5B9F` used as accent only — muted surfaces, supporting accents. | |
 | 1.5 | Iris Sky `#7EDFFE` is fill-only — never used for text. | |
@@ -55,7 +55,7 @@ and UI component compliance. Mark each item PASS, FAIL, or N/A.
 
 | # | Check | Result |
 |---|-------|--------|
-| 4.1 | Primary button: Azure fill, **navy text** (not white). | |
+| 4.1 | Primary button: Azure fill, **white text/icons**. | |
 | 4.2 | Secondary/outline button: Gogolook Blue border/text on white. | |
 | 4.3 | Button sizes match spec: sm (8px 14px), default (11px 20px), lg (14px 26px). | |
 | 4.4 | Form inputs: 1px `--line` border, `--r-md` radius, Azure focus ring. | |

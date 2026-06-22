@@ -92,7 +92,7 @@ as semantic risk signals in data, never as brand decoration.
 ### Primary, Secondary & Accents
 | Role | Token | Name | Hex | Use |
 |------|-------|------|-----|-----|
-| **Primary** | `--blue` | Azure | `#41A9F6` | The lead. Primary actions, links, active states, key brand accents. Use navy text on Azure fills — not white. |
+| **Primary** | `--blue` | Azure | `#41A9F6` | The lead. Primary actions, links, active states, key brand accents. White text/icons on Azure fills. |
 | **Secondary** | `--azure` | Gogolook Blue | `#0058EA` | Secondary highlights, data-viz, icons. White text passes AA. |
 | Accent | `--iris` | Blue Iris | `#5A5B9F` | Accent — muted surfaces/supporting accents. Ties to the name. White text passes AA (~6:1). |
 | Light accent | `--sky` | Iris Sky | `#7EDFFE` | Tints, hover fills, chart-light, glows on dark (accent/fill only). |
@@ -119,8 +119,8 @@ logotype, marketing only.
 
 Rules: never use red/amber as brand or decorative color. Maintain WCAG AA —
 `#0058EA` (Gogolook Blue), `#5A5B9F`, and `#0F2647` pass on white for text.
-Azure (`#41A9F6`) is the primary but is **accent/fill only** for text contrast —
-use navy text on Azure fills. Sky is fill-only.
+Azure (`#41A9F6`) is the primary — use white text/icons on Azure fills.
+Sky is fill-only.
 
 ---
 

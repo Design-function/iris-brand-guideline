@@ -63,7 +63,7 @@ User request
 
 | Role | Token | Hex | Text rule |
 |------|-------|-----|-----------|
-| **Primary** | `--blue` (Azure) | `#41A9F6` | Accent/fill only — navy text on Azure, never white |
+| **Primary** | `--blue` (Azure) | `#41A9F6` | White text/icons on Azure fills |
 | **Secondary** | `--azure` (Gogolook Blue) | `#0058EA` | White text passes AA |
 | **Accent** | `--iris` (Blue Iris) | `#5A5B9F` | White text passes AA (~6:1) |
 | **Light accent** | `--sky` (Iris Sky) | `#7EDFFE` | Fill only — navy text |
@@ -121,7 +121,7 @@ When `checklist.md` is not available, use this combined checklist.
 
 #### Brand compliance
 - [ ] Uses only IRIS palette colors — no off-palette colors
-- [ ] Azure (`#41A9F6`) used as accent/fill only — navy text on Azure, never white
+- [ ] Azure (`#41A9F6`) fills use white text/icons
 - [ ] Gogolook Blue (`#0058EA`) and Blue Iris (`#5A5B9F`) where AA contrast is needed
 - [ ] Semantic risk colors only in data-viz context, never as decoration
 - [ ] Brand gradient only in hero/marketing surfaces

@@ -10,7 +10,7 @@ Mark each as PASS, FAIL, or N/A. A single critical failure blocks approval.
 | # | Check | Result |
 |---|-------|--------|
 | 1.1 | Azure `#41A9F6` is present as the primary brand color (actions, links, active states, key accents). | |
-| 1.2 | Navy text (`#0F2647`) is used on Azure fills — **never** white text on Azure. | |
+| 1.2 | White text/icons on Azure (`#41A9F6`) fills. | |
 | 1.3 | Gogolook Blue `#0058EA` is used only as secondary (highlights, data-viz, icons) — not replacing Azure as primary. | |
 | 1.4 | Blue Iris `#5A5B9F` is used only as accent (muted surfaces, supporting accents) — not as primary or secondary. | |
 | 1.5 | Iris Sky `#7EDFFE` is fill-only — never used for text. | |
@@ -20,7 +20,7 @@ Mark each as PASS, FAIL, or N/A. A single critical failure blocks approval.
 | 1.9 | Red and amber never appear as brand or decorative color anywhere in the output. | |
 | 1.10 | Foundation colors are correct: Navy `#0F2647`, Mist `#F3F8FE`, White `#FFFFFF`, secondary text `#5A6577`, borders `#E6ECF5`. | |
 
-**Critical failures:** 1.2 (white text on Azure), 1.8 (risk colors as decoration), 1.9 (red/amber as brand color).
+**Critical failures:** 1.2 (wrong text color on Azure), 1.8 (risk colors as decoration), 1.9 (red/amber as brand color).
 
 ---
 

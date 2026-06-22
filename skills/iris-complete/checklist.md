@@ -9,7 +9,7 @@ and data visualization. Run after generating any IRIS output.
 
 | # | Check | Result |
 |---|-------|--------|
-| 1.1 | Azure `#41A9F6` present as primary. Navy text on Azure fills — never white. | |
+| 1.1 | Azure `#41A9F6` present as primary. White text/icons on Azure fills. | |
 | 1.2 | All hex values match token table. No off-palette colors. | |
 | 1.3 | Semantic risk colors only in data-viz — never decorative. | |
 | 1.4 | Brand gradient only in hero/marketing surfaces. | |
@@ -19,7 +19,7 @@ and data visualization. Run after generating any IRIS output.
 | 1.8 | Logo uses official SVG, correct variant, proper clearspace. | |
 | 1.9 | "WitcherFin" does not appear. Rebrand complete. | |
 
-**Critical failures:** 1.1 (navy-on-Azure rule), 1.3, 1.9.
+**Critical failures:** 1.1 (Azure text color rule), 1.3, 1.9.
 
 ---
 
@@ -27,7 +27,7 @@ and data visualization. Run after generating any IRIS output.
 
 | # | Check | Result |
 |---|-------|--------|
-| 2.1 | Primary button: Azure fill, navy text (not white). | |
+| 2.1 | Primary button: Azure fill, white text/icons. | |
 | 2.2 | Components match iris-brand-ui specs (sizes, radii, padding). | |
 | 2.3 | Space = clarity: generous whitespace, airy rhythm. | |
 | 2.4 | Focus states use Azure ring. | |

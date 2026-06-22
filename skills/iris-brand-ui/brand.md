@@ -23,7 +23,7 @@
 
 | Role | Token | Name | Hex | Text Rule |
 |------|-------|------|-----|-----------|
-| **Primary** | `--blue` | Azure | `#41A9F6` | Accent/fill only — navy text on Azure fills, never white |
+| **Primary** | `--blue` | Azure | `#41A9F6` | White text/icons on Azure fills |
 | **Secondary** | `--azure` | Gogolook Blue | `#0058EA` | White text passes AA |
 | **Accent** | `--iris` | Blue Iris | `#5A5B9F` | White text passes AA (~6:1) |
 | **Light accent** | `--sky` | Iris Sky | `#7EDFFE` | Fill only — navy text |
