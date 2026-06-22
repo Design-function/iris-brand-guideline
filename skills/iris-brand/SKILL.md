@@ -18,7 +18,7 @@ You are working on brand assets for **IRIS** (Intelligence Risk Integrated Solut
 - **Secondary text:** `#5A6577` (CSS `--ink-2`)
 - **Borders:** `#E6ECF5` (CSS `--line`)
 - **Brand gradient:** `#0058EA -> #41A9F6 -> #7EDFFE` (hero/marketing only)
-- **Headings font:** Plus Jakarta Sans 700/800, -0.02em tracking
+- **Headings font:** Plus Jakarta Sans 300, -0.02em tracking
 - **Body font:** Inter 400/500, 1.5-1.6 line-height
 - **Data/figures font:** Inter tabular-nums (always for scores, percentiles, tables)
 - **Regional font:** Noto Sans 400/500/700 (CJK + multilingual)
@@ -52,7 +52,7 @@ You are working on brand assets for **IRIS** (Intelligence Risk Integrated Solut
 
 ### Typography
 
-- **Headlines:** Plus Jakarta Sans, weight 700 or 800, tracking -0.02em. Favor light weights (300-500) for logotype and highlighted paragraphs to maintain the airy, clear feel.
+- **Headlines:** Plus Jakarta Sans, weight 300 (light), tracking -0.02em. The light weight is the brand standard for all headlines — it delivers the airy, clear feel that defines IRIS. Also use 300 for logotype and highlighted paragraphs.
 - **Body:** Inter 400 or 500, line-height 1.5-1.6.
 - **Numbers/data:** Inter with `font-variant-numeric: tabular-nums` for all scores, percentiles, table figures, and financial data. This is non-negotiable — the product is score- and figure-heavy.
 - **Regional:** Noto Sans 400/500/700 for CJK and multilingual body (TC/JP/KR/TH).
@@ -140,7 +140,7 @@ IRIS speaks like a **trusted risk expert**: calm, precise, evidence-led.
 - Open with the tagline ("See risk clearly.") or a metric-led headline.
 - Use the brand gradient for hero backgrounds. Navy text on gradient fills.
 - Lead with proof points: +7.4% Gini, 4.7% recovery, 2-3% default rate, 157M-number graph.
-- Plus Jakarta Sans 700 for headlines. Inter for supporting body.
+- Plus Jakarta Sans 300 for headlines. Inter for supporting body.
 - Generous whitespace. Never crowd. The clarity principle is especially visible here.
 - Co-brand with the Gogolook logo where appropriate.
 
@@ -189,7 +189,7 @@ Run before delivering any IRIS asset:
 - [ ] White text/icons on Azure fills.
 - [ ] All hex values match the token table exactly.
 - [ ] Semantic risk colors (red/amber/green) used only for risk data — never decorative.
-- [ ] Headlines use Plus Jakarta Sans 700/800. Body uses Inter.
+- [ ] Headlines use Plus Jakarta Sans 300. Body uses Inter.
 - [ ] All numbers/scores use Inter with `tabular-nums`.
 - [ ] Tone is evidence-led — no hype words, no banned phrases.
 - [ ] Logo uses the official SVG with correct variant for the background.

@@ -26,7 +26,7 @@ and UI component compliance. Mark each item PASS, FAIL, or N/A.
 
 | # | Check | Result |
 |---|-------|--------|
-| 2.1 | Headlines use Plus Jakarta Sans 700/800, tracking -0.02em. | |
+| 2.1 | Headlines use Plus Jakarta Sans 300, tracking -0.02em. | |
 | 2.2 | Body uses Inter 400/500, line-height 1.5–1.6. | |
 | 2.3 | All numbers/scores/percentiles use Inter `tabular-nums`. | |
 | 2.4 | No unauthorized typefaces. | |

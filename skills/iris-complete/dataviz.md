@@ -55,7 +55,7 @@ rate, screening volume).
 ```
 
 **Structure:**
-- **Value:** Plus Jakarta Sans 700, 28-36px, Iris Navy (light bg) or white (dark bg).
+- **Value:** Plus Jakarta Sans 300, 28-36px, Iris Navy (light bg) or white (dark bg).
   Use `font-variant-numeric: tabular-nums`.
 - **Trend badge:** Small pill — green background + white text for positive,
   red background + white text for negative. Arrow icon (up/down) inside.
@@ -101,7 +101,7 @@ Compact percentage indicators for key figures.
 - **Size:** 56-64px diameter
 - **Ring:** Azure fill for the value arc, `#E6ECF5` (line color) for the
   remaining arc. Stroke-width 6-8px, round linecap.
-- **Value:** Inside or beside the donut — Plus Jakarta Sans 700, 20-22px,
+- **Value:** Inside or beside the donut — Plus Jakarta Sans 300, 20-22px,
   Iris Navy, tabular-nums.
 - **Label:** Below or beside — Inter 400, 12-13px, `#5A6577`.
 - **Container:** White card, border, 16px radius (same as KPI card pattern).

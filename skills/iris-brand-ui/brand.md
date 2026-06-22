@@ -58,11 +58,11 @@ Never use red/amber/green as brand or decorative color.
 
 | Role | Font | Weights | Use |
 |------|------|---------|-----|
-| Primary | Plus Jakarta Sans | 300–800 | Headlines (700/800), logotype (300–500) |
+| Primary | Plus Jakarta Sans | 300–600 | Headlines (300), logotype (300–500) |
 | Secondary | Inter | 400/500/600 | Body copy, tabular-nums for all figures |
 | Regional | Noto Sans | 400/500/700 | CJK + multilingual body |
 
-- Headlines: Plus Jakarta Sans, tracking -0.02em, weight 700/800.
+- Headlines: Plus Jakarta Sans, tracking -0.02em, weight 300.
 - Body: Inter 400/500, line-height 1.5–1.6.
 - Numbers: Inter `font-variant-numeric: tabular-nums` — always.
 - Do not introduce other typefaces.
