@@ -26,7 +26,7 @@ Every output must follow the IRIS brand rules and UI component spec. Read the su
 | **Borders** | `--line` | `#E6ECF5` | Dividers, card borders |
 
 ### Typography
-- **Headlines:** Plus Jakarta Sans 300, tracking -0.02em
+- **Headlines:** Plus Jakarta Sans 500, tracking -0.02em
 - **Body:** Inter 400/500, line-height 1.5-1.6
 - **Data/scores:** Inter tabular-nums
 - **Regional:** Noto Sans 400/500/700 (CJK/TH)

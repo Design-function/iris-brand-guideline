@@ -33,7 +33,7 @@ risk levels.
 
 | Role | Font | Weight | Notes |
 |------|------|--------|-------|
-| Headlines | Plus Jakarta Sans | 300 | Tracking -0.02em. Use 300 (light) for all slide titles including cover. |
+| Headlines | Plus Jakarta Sans | 500 | Tracking -0.02em. Use 500 (medium) for all slide titles including cover. |
 | Body | Inter | 400 / 500 | Line-height 1.5. Use 500 for emphasis within body. |
 | Data / numbers | Inter | 500 / 700 | `font-variant-numeric: tabular-nums` on all figures. |
 | CJK / regional | Noto Sans TC/JP/KR/TH | 400 / 500 / 700 | Use when deck contains non-Latin content. |
@@ -54,10 +54,10 @@ Every IRIS deck draws from these 8 slide types. Not every deck uses all types.
 - **Background:** Iris Navy (`#0F2647`) with subtle brand gradient overlay
   (`#0058EA -> #41A9F6 -> #7EDFFE`, low opacity, radial from bottom-right)
 - **Content:** IRIS logotype (white SVG) centered horizontally, upper third.
-  Below: deck title (Plus Jakarta Sans 300, white, 48-56px), subtitle line
+  Below: deck title (Plus Jakarta Sans 500, white, 48-56px), subtitle line
   (Inter 400, `rgba(255,255,255,0.7)`, 18-20px), date and presenter name
   (Inter 400, `rgba(255,255,255,0.5)`, 14px)
-- **Tagline:** "See risk clearly." in Plus Jakarta Sans 300, white, letterspaced
+- **Tagline:** "See risk clearly." in Plus Jakarta Sans 500, white, letterspaced
   (+0.08em), positioned below the logotype, above the title
 - **Decorative:** Single concentric circle accent (thin stroke, `rgba(65,169,246,0.12)`)
   in bottom-right corner. Max 3 concentric rings.
@@ -65,7 +65,7 @@ Every IRIS deck draws from these 8 slide types. Not every deck uses all types.
 ### Type 2 — Agenda
 
 - **Background:** Iris Navy (`#0F2647`)
-- **Title:** "Agenda" — Plus Jakarta Sans 300, white, 36px, top-left area
+- **Title:** "Agenda" — Plus Jakarta Sans 500, white, 36px, top-left area
 - **Items:** Numbered list (01, 02, 03...) using Inter 500, white, 20px.
   Number in Azure (`#41A9F6`), section name in white. Vertical stack with
   24px gap between items.
@@ -76,7 +76,7 @@ Every IRIS deck draws from these 8 slide types. Not every deck uses all types.
 
 - **Background:** Iris Navy (`#0F2647`)
 - **Content:** Section number (Inter 500, Azure `#41A9F6`, 16px, letterspaced)
-  above section title (Plus Jakarta Sans 300, white, 44-52px). Centered
+  above section title (Plus Jakarta Sans 500, white, 44-52px). Centered
   vertically and horizontally.
 - **Decorative:** Subtle Azure accent — a single thin horizontal rule (1px,
   `rgba(65,169,246,0.25)`, 120px wide) below the title.
@@ -84,7 +84,7 @@ Every IRIS deck draws from these 8 slide types. Not every deck uses all types.
 ### Type 4 — Content (Light)
 
 - **Background:** Iris Mist (`#F3F8FE`)
-- **Title:** Plus Jakarta Sans 300, Iris Navy, 28-32px, top-left with 64px
+- **Title:** Plus Jakarta Sans 500, Iris Navy, 28-32px, top-left with 64px
   top padding
 - **Body area:** Inter 400/500, `#5A6577`, 16-18px, max-width 720px for
   readability. Bullet points use Azure circle markers.
@@ -96,9 +96,9 @@ Every IRIS deck draws from these 8 slide types. Not every deck uses all types.
 ### Type 5 — Data Dashboard
 
 - **Background:** Iris Navy (`#0F2647`)
-- **Title:** Plus Jakarta Sans 300, white, 28px, top-left
+- **Title:** Plus Jakarta Sans 500, white, 28px, top-left
 - **KPI cards:** 2-4 cards in a row. Each card: `rgba(255,255,255,0.06)`
-  background, 16px radius, 24px padding. Value in Plus Jakarta Sans 300,
+  background, 16px radius, 24px padding. Value in Plus Jakarta Sans 500,
   white, 36px, tabular-nums. Label in Inter 400, `rgba(255,255,255,0.6)`,
   13px. Optional trend arrow (green up / red down) beside the value.
 - **Chart area:** Below KPI cards. Charts use brand palette (Azure, Gogolook
@@ -108,7 +108,7 @@ Every IRIS deck draws from these 8 slide types. Not every deck uses all types.
 ### Type 6 — Risk Distribution
 
 - **Background:** Iris Navy (`#0F2647`)
-- **Title:** Plus Jakarta Sans 300, white, 28px
+- **Title:** Plus Jakarta Sans 500, white, 28px
 - **Risk bars:** Horizontal bars for risk levels A-E. Each bar labeled with
   the level letter, count, and percentage. Bar fill colors:
 
@@ -130,7 +130,7 @@ Every IRIS deck draws from these 8 slide types. Not every deck uses all types.
 - **Layout:** 50/50 or 60/40 split. Left column: text content (title + body
   or bullet list). Right column: visual (chart, screenshot, illustration,
   or data card).
-- **Title:** Plus Jakarta Sans 300, Iris Navy, 28px
+- **Title:** Plus Jakarta Sans 500, Iris Navy, 28px
 - **Body:** Inter 400, `#5A6577`, 16px
 - **Divider:** Optional thin vertical line (`#E6ECF5`, 1px) between columns,
   or use whitespace (32-48px gap) alone.
@@ -139,7 +139,7 @@ Every IRIS deck draws from these 8 slide types. Not every deck uses all types.
 
 - **Background:** White with Azure accent bar (8px) along the top edge
 - **Content:** Key takeaways as 3-4 bullet points (Inter 500, Iris Navy, 18px).
-  Below: CTA block — action text (Plus Jakarta Sans 300, Gogolook Blue, 24px)
+  Below: CTA block — action text (Plus Jakarta Sans 500, Gogolook Blue, 24px)
   and contact info (Inter 400, `#5A6577`, 14px).
 - **IRIS logotype:** Navy, bottom-left, small.
 - **Gogolook co-brand:** If applicable, "Powered by Gogolook" or Gogolook logo
@@ -220,7 +220,7 @@ viewport with `object-fit: contain` behavior.
 - [ ] Risk colors appear only on data slides, never decoratively
 
 ### Typography
-- [ ] Headlines: Plus Jakarta Sans 300
+- [ ] Headlines: Plus Jakarta Sans 500
 - [ ] Body: Inter 400/500
 - [ ] All numbers use tabular-nums
 - [ ] No typefaces outside the IRIS stack (Plus Jakarta Sans / Inter / Noto Sans)

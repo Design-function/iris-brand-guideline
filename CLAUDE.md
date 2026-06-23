@@ -128,11 +128,11 @@ Sky is fill-only.
 
 | Role | Font | Weights | Use |
 |------|------|---------|-----|
-| Primary | **Plus Jakarta Sans** | 300 – 600 | Headlines (300), logotype (300–500), highlighted paragraphs. Favor **light weights + generous space** for an airy, clear feel — clarity is the brand. |
+| Primary | **Plus Jakarta Sans** | 300 – 600 | Headlines (500), logotype (300–500), highlighted paragraphs. Favor **light weights + generous space** for an airy, clear feel — clarity is the brand. |
 | Secondary | **Inter** | 400 / 500 / 600 | Body copy across digital and print. Use `font-variant-numeric: tabular-nums` for all scores, percentiles, and table figures. |
 | Regional | **Noto Sans** | 400 / 500 / 700 | CJK + multilingual body (TC/JP/KR/TH). Ensures regional readability. |
 
-- Headlines: Plus Jakarta Sans, tight tracking (-0.02em), weight 300.
+- Headlines: Plus Jakarta Sans, tight tracking (-0.02em), weight 500.
 - Body: Inter 400/500, 1.5–1.6 line-height.
 - Numbers/data: Inter tabular-nums (the product is score- and figure-heavy).
 - Do not introduce other typefaces.

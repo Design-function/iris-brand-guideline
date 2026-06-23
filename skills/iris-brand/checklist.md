@@ -28,7 +28,7 @@ Mark each as PASS, FAIL, or N/A. A single critical failure blocks approval.
 
 | # | Check | Result |
 |---|-------|--------|
-| 2.1 | Headlines use **Plus Jakarta Sans** weight 300 (light) with tracking -0.02em. | |
+| 2.1 | Headlines use **Plus Jakarta Sans** weight 500 (medium) with tracking -0.02em. | |
 | 2.2 | Body copy uses **Inter** weight 400 or 500 with line-height 1.5-1.6. | |
 | 2.3 | All numbers, scores, percentiles, and table figures use Inter with `font-variant-numeric: tabular-nums`. | |
 | 2.4 | Regional/CJK text uses **Noto Sans** (400/500/700) — not a different CJK face. | |

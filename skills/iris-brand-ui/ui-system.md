@@ -240,7 +240,7 @@ The IRIS risk scale uses a 5-stop color ramp from safe (A) to dangerous (E). The
   align-items: center;
   justify-content: center;
   font-family: var(--display);
-  font-weight: 300;
+  font-weight: 500;
   font-size: 20px;
   color: #FFFFFF;
 }
@@ -264,7 +264,7 @@ The primary way IRIS surfaces a single risk score and its percentile rank.
 ```css
 .score {
   font-family: var(--display);
-  font-weight: 300;
+  font-weight: 500;
   font-size: 52px;
   color: var(--blue);
   font-variant-numeric: tabular-nums;
@@ -415,7 +415,7 @@ The IRIS console layout: a navy sidebar with a white content area.
 }
 .quota .q {
   font-family: var(--display);
-  font-weight: 300;
+  font-weight: 500;
   font-size: 36px;
   color: #FFFFFF;
   font-variant-numeric: tabular-nums;
@@ -437,7 +437,7 @@ The IRIS console layout: a navy sidebar with a white content area.
 }
 .console-main h5 {
   font-family: var(--display);
-  font-weight: 300;
+  font-weight: 500;
   font-size: 16px;
   color: var(--navy);
 }
@@ -472,7 +472,7 @@ For dashboard-level metrics: total queries, hit rate, average score, etc.
 }
 .kpi-val {
   font-family: var(--display);
-  font-weight: 300;
+  font-weight: 500;
   font-size: 32px;
   color: var(--navy);
   font-variant-numeric: tabular-nums;
@@ -577,7 +577,7 @@ For dashboard-level metrics: total queries, hit rate, average score, etc.
 }
 .mini-donut .md-val {
   font-family: var(--display);
-  font-weight: 300;
+  font-weight: 500;
   font-size: 22px;
   color: var(--navy);
   font-variant-numeric: tabular-nums;
@@ -601,7 +601,7 @@ For dashboard-level metrics: total queries, hit rate, average score, etc.
 }
 .chart-title {
   font-family: var(--display);
-  font-weight: 300;
+  font-weight: 500;
   font-size: 15px;
   color: var(--navy);
   margin-bottom: 4px;
