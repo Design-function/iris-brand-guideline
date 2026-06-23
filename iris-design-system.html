@@ -215,6 +215,10 @@
       #main-content { padding: 0 20px; }
     }
 
+    @media (max-width: 767px) {
+      #getting-started .gs-cols { grid-template-columns: 1fr !important; gap: 32px !important; }
+    }
+
     /* ── Section Base ───────────────────────────────────────────── */
     section {
       padding: 48px 0;
@@ -792,23 +796,43 @@
            SECTION: Getting Started
            ════════════════════════════════════════════════════════ -->
       <section id="getting-started">
+        <!-- IRIS gradient logo + "Web Design System" -->
+        <div style="margin-bottom:48px;">
+          <svg viewBox="0 0 1088.38 409.56" style="width:clamp(140px,18vw,200px);height:auto;display:block;" aria-label="IRIS">
+            <defs><linearGradient id="gs-grad" x1="0%" y1="50%" x2="100%" y2="50%"><stop offset="0%" stop-color="#0058EA"/><stop offset="50%" stop-color="#41A9F6"/><stop offset="100%" stop-color="#7EDFFE"/></linearGradient></defs>
+            <path fill="url(#gs-grad)" d="M1088.38,289.8c0,65.99-54.97,119.68-122.53,119.68h-162.66c-7.86,0-14.23-6.4-14.23-14.3v-42.91c0-7.9,6.37-14.3,14.23-14.3h162.66c28.32,0,51.37-21.6,51.37-48.17s-23.05-48.15-51.37-48.15h-89.15c-62.13-5.74-110.86-58.02-110.86-120.17,0-65.99,54.95-119.68,122.53-119.68h162.66c7.86,0,14.23,6.4,14.23,14.3v42.91c0,7.9-6.37,14.3-14.23,14.3h-162.66c-28.34,0-51.37,21.62-51.37,48.17s23.04,48.15,51.37,48.15h72.81v.5h4.68c67.56,0,122.53,53.69,122.53,119.67Z"/>
+            <path fill="url(#gs-grad)" d="M523.32,409.56h-62.73c-4.31,0-8.39-1.94-11.11-5.29l-130-160.28c-2.38-2.94-5.96-4.64-9.74-4.64h-44.9c-5.2,0-9.41,4.21-9.41,9.41v146.5c0,7.9-6.4,14.3-14.3,14.3h-42.91c-7.9,0-14.3-6.4-14.3-14.3v-183.26h.04v-29.86c0-7.9,6.4-14.3,14.3-14.3h176c28.48,0,51.64-21.62,51.64-48.17s-23.15-48.15-51.64-48.15h-174.72c-7.9,0-14.3-6.4-14.3-14.3V14.3c0-7.9,6.4-14.3,14.3-14.3h174.72c67.91,0,123.15,53.67,123.15,119.67,0,53.37-36.15,98.71-85.91,114.09-3.16.98-4.29,4.87-2.21,7.44l122.37,150.88c5.69,7.01.7,17.48-8.33,17.48Z"/>
+            <rect fill="url(#gs-grad)" y="1.66" width="71.52" height="407.9" rx="14.3" ry="14.3"/>
+            <rect fill="url(#gs-grad)" x="605.93" y="1.66" width="71.52" height="407.9" rx="14.3" ry="14.3"/>
+          </svg>
+          <p style="font-family:var(--display);font-weight:500;font-size:clamp(28px,4vw,42px);color:var(--navy);margin:14px 0 0;letter-spacing:-.015em;line-height:1.15;">Web Design System</p>
+        </div>
+
         <p class="eyebrow">Overview · Getting Started</p>
         <h2>Getting Started</h2>
-        <p class="section-desc">Download the IRIS UI Design System skill package. It contains every design token, component spec, and QA checklist needed to build IRIS-branded interfaces — ready to feed into any AI coding assistant or use as a human-readable reference.</p>
 
-        <div style="margin-top:32px;border:1.5px dashed var(--line);border-radius:20px;padding:36px 32px;display:flex;flex-direction:column;gap:16px;transition:border-color .2s,border-style .2s;max-width:560px;" onmouseover="this.style.borderColor='var(--blue)';this.style.borderStyle='solid'" onmouseout="this.style.borderColor='var(--line)';this.style.borderStyle='dashed'">
-          <span style="font-family:var(--display);font-weight:500;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--blue);">SKILL PACKAGE</span>
-          <h3 style="font-size:22px;letter-spacing:-.01em;margin:0;">iris-brand-ui</h3>
-          <p style="font-size:14px;color:var(--ink-2);line-height:1.6;margin:0;">Brand identity + full UI component system. Includes design tokens (JSON), component specs, accessibility rules, and a 43-point QA checklist with built-in review loop.</p>
-          <div style="font-size:12.5px;color:var(--ink-2);line-height:1.7;margin:4px 0 8px;">
-            <strong style="color:var(--navy);">5 files included:</strong><br>
-            SKILL.md — entry point + review loop<br>
-            brand.md — brand foundation reference<br>
-            ui-system.md — full component specs + CSS<br>
-            tokens.json — machine-readable design tokens<br>
-            checklist.md — 43-check QA checklist
+        <!-- 2-column: copy left, skill card right -->
+        <div class="gs-cols" style="display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:start;margin-top:8px;">
+          <div>
+            <p style="font-size:15px;color:var(--ink-2);line-height:1.7;margin:0 0 20px;">Download the IRIS UI Design System skill package. It contains every design token, component spec, and QA checklist needed to build IRIS-branded interfaces.</p>
+            <p style="font-size:15px;color:var(--ink-2);line-height:1.7;margin:0 0 20px;">Feed it into any AI coding assistant as context, or use it as a human-readable reference for designers and developers building on the IRIS platform.</p>
+            <p style="font-size:15px;color:var(--ink-2);line-height:1.7;margin:0;">The package includes a built-in 43-point QA review loop — generate your UI, run the checklist, iterate until it passes.</p>
           </div>
-          <a href="#" data-dl="skills/iris-brand-ui.zip" data-fname="iris-brand-ui.zip" style="display:inline-flex;align-items:center;gap:8px;font-family:var(--body);font-weight:600;font-size:14px;padding:13px 24px;border:none;border-radius:10px;cursor:pointer;text-decoration:none;transition:.15s;line-height:1;background:var(--blue);color:#fff;width:fit-content;" onmouseover="this.style.background='#2B8FD4'" onmouseout="this.style.background='var(--blue)'"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M7 1v9m0 0L3.5 6.5M7 10l3.5-3.5M1 13h12"/></svg>Download .zip</a>
+
+          <div style="border:1.5px dashed var(--line);border-radius:20px;padding:32px 28px;display:flex;flex-direction:column;gap:14px;transition:border-color .2s,border-style .2s;" onmouseover="this.style.borderColor='var(--blue)';this.style.borderStyle='solid'" onmouseout="this.style.borderColor='var(--line)';this.style.borderStyle='dashed'">
+            <span style="font-family:var(--display);font-weight:500;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--blue);">SKILL PACKAGE</span>
+            <h3 style="font-size:22px;letter-spacing:-.01em;margin:0;">iris-brand-ui</h3>
+            <p style="font-size:14px;color:var(--ink-2);line-height:1.6;margin:0;">Brand identity + full UI component system with design tokens, component specs, accessibility rules, and QA checklist.</p>
+            <div style="font-size:12.5px;color:var(--ink-2);line-height:1.7;margin:2px 0 6px;">
+              <strong style="color:var(--navy);">5 files:</strong><br>
+              SKILL.md — entry point + review loop<br>
+              brand.md — brand foundation reference<br>
+              ui-system.md — component specs + CSS<br>
+              tokens.json — machine-readable tokens<br>
+              checklist.md — 43-check QA checklist
+            </div>
+            <a href="#" data-dl="skills/iris-brand-ui.zip" data-fname="iris-brand-ui.zip" style="display:inline-flex;align-items:center;gap:8px;font-family:var(--body);font-weight:600;font-size:14px;padding:13px 24px;border:none;border-radius:10px;cursor:pointer;text-decoration:none;transition:.15s;line-height:1;background:var(--blue);color:#fff;width:fit-content;" onmouseover="this.style.background='#2B8FD4'" onmouseout="this.style.background='var(--blue)'"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M7 1v9m0 0L3.5 6.5M7 10l3.5-3.5M1 13h12"/></svg>Download .zip</a>
+          </div>
         </div>
       </section>
 
